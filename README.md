@@ -17,9 +17,7 @@
 > 本项目是社区维护的非官方客户端，与酷安官方及深圳酷安网络科技有限公司无隶属、授权或合作关系。酷安名称、Logo 和相关商标归其权利人所有。
 
 > [!NOTE]
-> **维护状态**：原仓库 [daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) 已由原作者归档、停止维护。本项目自此仓库 fork 而来，由 [@Experiansence](https://github.com/Experiansence) 接手继续维护。
->
-> 代码沿用 MIT 许可，**原作者的版权声明与署名完整保留**。致谢原作者 [@daimiaopeng](https://github.com/daimiaopeng) 从零建立起这个客户端。
+> **维护**：本项目由 [@Experiansence](https://github.com/Experiansence) 维护与发布，代码基于 coolapk-desktop 继续开发，遵循 MIT 许可。
 
 ## 📥 下载与安装
 
