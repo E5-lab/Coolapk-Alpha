@@ -5,7 +5,7 @@ description = "基于 Tauri 2、Vue 3 和 Rust 的非官方酷安桌面客户端
 authors = ["daimiaopeng", "Experiansence"]
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/Experiansence/coolapk-desktop"
+repository = "https://github.com/Experiansence/coolapk-desktop-next"
 
 [lib]
 name = "coolapk_desktop_lib"

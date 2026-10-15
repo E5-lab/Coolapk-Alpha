@@ -244,7 +244,7 @@ const authStore = useAuthStore();
 const activeTab = ref<'cookie'>('cookie');
 const showAdvanced = ref(false);
 
-const COOKIE_GUIDE_URL = 'https://github.com/Experiansence/coolapk-desktop/blob/main/docs/cookie-guide.md';
+const COOKIE_GUIDE_URL = 'https://github.com/Experiansence/coolapk-desktop-next/blob/main/docs/cookie-guide.md';
 
 function handleOpenCookieGuide() {
   void CoolapkTauriAPI.openUrl(COOKIE_GUIDE_URL, 'system');

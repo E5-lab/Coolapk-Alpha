@@ -7,8 +7,8 @@
 <p align="center">基于 Tauri 2、Vue 3 和 Rust 的非官方酷安桌面客户端。</p>
 
 <p align="center">
-  <a href="https://github.com/Experiansence/coolapk-desktop/actions/workflows/build.yml"><img src="https://github.com/Experiansence/coolapk-desktop/actions/workflows/build.yml/badge.svg" alt="构建状态"></a>
-  <a href="https://github.com/Experiansence/coolapk-desktop/releases"><img src="https://img.shields.io/github/v/release/Experiansence/coolapk-desktop?color=41b883" alt="最新版本"></a>
+  <a href="https://github.com/Experiansence/coolapk-desktop-next/actions/workflows/build.yml"><img src="https://github.com/Experiansence/coolapk-desktop-next/actions/workflows/build.yml/badge.svg" alt="构建状态"></a>
+  <a href="https://github.com/Experiansence/coolapk-desktop-next/releases"><img src="https://img.shields.io/github/v/release/Experiansence/coolapk-desktop-next?color=41b883" alt="最新版本"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT 许可证"></a>
   <img src="https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri" alt="Tauri 2">
 </p>
@@ -23,7 +23,7 @@
 
 ## 📥 下载与安装
 
-请前往 [👉 GitHub Releases](https://github.com/Experiansence/coolapk-desktop/releases) 获取各平台的最新版本程序包：
+请前往 [👉 GitHub Releases](https://github.com/Experiansence/coolapk-desktop-next/releases) 获取各平台的最新版本程序包：
 
 | 操作系统 | 文件格式 | 推荐安装包 |
 | :--- | :--- | :--- |
@@ -52,21 +52,21 @@
 
 ## Star 走势
 
-<a href="https://star-history.com/#Experiansence/coolapk-desktop&Date">
+<a href="https://star-history.com/#Experiansence/coolapk-desktop-next&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop&type=Date" />
-   <img alt="Star 走势趋势图" src="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop-next&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop-next&type=Date" />
+   <img alt="Star 走势趋势图" src="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop-next&type=Date" />
  </picture>
 </a>
 
 ## 贡献者
 
-[![贡献者](https://contrib.rocks/image?repo=Experiansence/coolapk-desktop)](https://github.com/Experiansence/coolapk-desktop/graphs/contributors)
+[![贡献者](https://contrib.rocks/image?repo=Experiansence/coolapk-desktop-next)](https://github.com/Experiansence/coolapk-desktop-next/graphs/contributors)
 
 ## 下载量统计图
 
-[![下载量统计图](https://release-monitor.com/chart/Experiansence/coolapk-desktop.svg?stable=5)](https://release-monitor.com/#/Experiansence/coolapk-desktop)
+[![下载量统计图](https://release-monitor.com/chart/Experiansence/coolapk-desktop-next.svg?stable=5)](https://release-monitor.com/#/Experiansence/coolapk-desktop-next)
 
 ## 功能
 
@@ -102,7 +102,7 @@
 - 各平台的 [Tauri 2 系统依赖](https://v2.tauri.app/start/prerequisites/)
 
 ```bash
-git clone https://github.com/Experiansence/coolapk-desktop.git
+git clone https://github.com/Experiansence/coolapk-desktop-next.git
 cd coolapk-desktop
 npm ci
 npm run tauri dev

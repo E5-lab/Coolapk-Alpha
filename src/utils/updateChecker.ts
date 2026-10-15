@@ -3,7 +3,7 @@ import type { UpdateChannel } from '../types/settings';
 import { getPlatformInfo, type PlatformInfo } from './platform';
 
 export { APP_VERSION };
-const RELEASES_URL = 'https://api.github.com/repos/Experiansence/coolapk-desktop/releases';
+const RELEASES_URL = 'https://api.github.com/repos/Experiansence/coolapk-desktop-next/releases';
 
 export type UpdateInfo = {
   hasNew: boolean;
@@ -309,7 +309,7 @@ export async function checkLatestRelease(
     latestVersion: tagName || '最新发布',
     releaseNotes,
     publishedAt,
-    downloadUrl: notesRelease?.html_url || 'https://github.com/Experiansence/coolapk-desktop/releases',
+    downloadUrl: notesRelease?.html_url || 'https://github.com/Experiansence/coolapk-desktop-next/releases',
     installerUrl,
     installerName: selectedAsset?.name,
     packageType,

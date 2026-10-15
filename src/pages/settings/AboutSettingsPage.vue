@@ -70,14 +70,14 @@
           <span class="row-label">项目主页</span>
           <span class="row-sub">GitHub 仓库 · 源码与 Release</span>
         </div>
-        <AppIconButton icon="fas fa-arrow-up-right-from-square" size="sm" title="打开项目主页" @click="open('https://github.com/Experiansence/coolapk-desktop')" />
+        <AppIconButton icon="fas fa-arrow-up-right-from-square" size="sm" title="打开项目主页" @click="open('https://github.com/Experiansence/coolapk-desktop-next')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
           <span class="row-label">GitHub 反馈</span>
           <span class="row-sub">提交 Issue 或功能建议</span>
         </div>
-        <AppIconButton icon="fas fa-bug" size="sm" title="打开反馈页面" @click="open('https://github.com/Experiansence/coolapk-desktop/issues')" />
+        <AppIconButton icon="fas fa-bug" size="sm" title="打开反馈页面" @click="open('https://github.com/Experiansence/coolapk-desktop-next/issues')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
@@ -120,7 +120,7 @@
       </div>
     </div>
 
-    <p class="copyright">© 2026 daimiaopeng · MIT License</p>
+    <p class="copyright">© daimiaopeng, Experiansence · MIT License</p>
   </div>
 </template>
 
@@ -167,7 +167,7 @@ function checkUpdate() {
 }
 
 onMounted(() => {
-  fetch('https://api.github.com/repos/Experiansence/coolapk-desktop', {
+  fetch('https://api.github.com/repos/Experiansence/coolapk-desktop-next', {
     headers: { Accept: 'application/vnd.github.v3+json' },
   })
     .then((res) => (res.ok ? res.json() : null))

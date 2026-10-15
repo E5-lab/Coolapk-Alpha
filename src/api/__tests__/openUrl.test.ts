@@ -43,7 +43,7 @@ describe('系统浏览器打开链接', () => {
 
   it.each([
     'https://example.com/article',
-    'https://github.com/Experiansence/coolapk-desktop',
+    'https://github.com/Experiansence/coolapk-desktop-next',
     'https://coolapk.com.evil.com/feed/123',
     'https://evilcoolapk.com/feed/123',
     'https://coolapk.com@evil.com/feed/123',
