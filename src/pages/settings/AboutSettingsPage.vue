@@ -81,31 +81,31 @@
       </div>
       <div class="setting-row">
         <div class="row-info">
-          <span class="row-label">联系维护者</span>
-          <span class="row-sub">Experiansence · GitHub</span>
+          <span class="row-label">现维护者</span>
+          <span class="row-sub">烟岚云衢（Experiansence）</span>
         </div>
         <AppIconButton icon="fas fa-user" size="sm" title="打开维护者主页" @click="open('https://github.com/Experiansence')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
-          <span class="row-label">原作者</span>
-          <span class="row-sub">daimiaopeng · 项目发起与主要实现</span>
+          <span class="row-label">邮箱</span>
+          <span class="row-sub">experiansence@gmail.com</span>
+        </div>
+        <AppIconButton icon="fas fa-envelope" size="sm" title="发送邮件" @click="open('mailto:experiansence@gmail.com')" />
+      </div>
+      <div class="setting-row">
+        <div class="row-info">
+          <span class="row-label">原作者（致谢）</span>
+          <span class="row-sub">daimiaopeng · 项目发起人</span>
         </div>
         <AppIconButton icon="fas fa-user" size="sm" title="打开原作者主页" @click="open('https://github.com/daimiaopeng')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
-          <span class="row-label">邮箱</span>
-          <span class="row-sub">daimiaopeng@gmail.com</span>
+          <span class="row-label">原作者酷安主页</span>
+          <span class="row-sub">oxygen的喵</span>
         </div>
-        <AppIconButton icon="fas fa-envelope" size="sm" title="发送邮件" @click="open('mailto:daimiaopeng@gmail.com')" />
-      </div>
-      <div class="setting-row">
-        <div class="row-info">
-          <span class="row-label">酷安主页</span>
-          <span class="row-sub">oxygen的喵 · 酷友交流</span>
-        </div>
-        <AppIconButton icon="fas fa-smile" size="sm" title="打开酷安主页" @click="open('https://www.coolapk.com/u/oxygen%E7%9A%84%E5%96%B5')" />
+        <AppIconButton icon="fas fa-smile" size="sm" title="打开原作者酷安主页" @click="open('https://www.coolapk.com/u/oxygen%E7%9A%84%E5%96%B5')" />
       </div>
     </div>
 
