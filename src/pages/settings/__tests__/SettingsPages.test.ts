@@ -491,13 +491,10 @@ describe('设置页面交互', () => {
     expect(wrapper.text()).toContain(APP_VERSION);
     expect(wrapper.get('.about-channel').text()).toBe(`${APP_VERSION.includes('-') ? '测试版' : '稳定版'} · 稳定版更新渠道`);
     expect(wrapper.text()).toContain('1.2k');
-    expect(wrapper.text()).toContain('1129528119');
     await wrapper.get('.about-head button').trigger('click');
     expect(eventSpy).toHaveBeenCalled();
     await wrapper.find('[title="打开项目主页"]').trigger('click');
     expect(mocks.openUrl).toHaveBeenCalledWith('https://github.com/Experiansence/coolapk-desktop', 'system');
-    await wrapper.find('[title="加入 QQ 交流群"]').trigger('click');
-    expect(mocks.openUrl).toHaveBeenCalledWith('https://qm.qq.com/q/bAOWmjCfJ0', 'system');
     vi.unstubAllGlobals();
   });
 
