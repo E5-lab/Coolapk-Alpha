@@ -70,21 +70,28 @@
           <span class="row-label">项目主页</span>
           <span class="row-sub">GitHub 仓库 · 源码与 Release</span>
         </div>
-        <AppIconButton icon="fas fa-arrow-up-right-from-square" size="sm" title="打开项目主页" @click="open('https://github.com/daimiaopeng/coolapk-desktop')" />
+        <AppIconButton icon="fas fa-arrow-up-right-from-square" size="sm" title="打开项目主页" @click="open('https://github.com/Experiansence/coolapk-desktop')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
           <span class="row-label">GitHub 反馈</span>
           <span class="row-sub">提交 Issue 或功能建议</span>
         </div>
-        <AppIconButton icon="fas fa-bug" size="sm" title="打开反馈页面" @click="open('https://github.com/daimiaopeng/coolapk-desktop/issues')" />
+        <AppIconButton icon="fas fa-bug" size="sm" title="打开反馈页面" @click="open('https://github.com/Experiansence/coolapk-desktop/issues')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
-          <span class="row-label">联系作者</span>
-          <span class="row-sub">daimiaopeng · GitHub</span>
+          <span class="row-label">联系维护者</span>
+          <span class="row-sub">Experiansence · GitHub</span>
         </div>
-        <AppIconButton icon="fas fa-user" size="sm" title="打开作者主页" @click="open('https://github.com/daimiaopeng')" />
+        <AppIconButton icon="fas fa-user" size="sm" title="打开维护者主页" @click="open('https://github.com/Experiansence')" />
+      </div>
+      <div class="setting-row">
+        <div class="row-info">
+          <span class="row-label">原作者</span>
+          <span class="row-sub">daimiaopeng · 项目发起与主要实现</span>
+        </div>
+        <AppIconButton icon="fas fa-user" size="sm" title="打开原作者主页" @click="open('https://github.com/daimiaopeng')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
@@ -167,7 +174,7 @@ function checkUpdate() {
 }
 
 onMounted(() => {
-  fetch('https://api.github.com/repos/daimiaopeng/coolapk-desktop', {
+  fetch('https://api.github.com/repos/Experiansence/coolapk-desktop', {
     headers: { Accept: 'application/vnd.github.v3+json' },
   })
     .then((res) => (res.ok ? res.json() : null))

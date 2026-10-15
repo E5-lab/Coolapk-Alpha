@@ -7,8 +7,8 @@
 <p align="center">基于 Tauri 2、Vue 3 和 Rust 的非官方酷安桌面客户端。</p>
 
 <p align="center">
-  <a href="https://github.com/daimiaopeng/coolapk-desktop/actions/workflows/build.yml"><img src="https://github.com/daimiaopeng/coolapk-desktop/actions/workflows/build.yml/badge.svg" alt="构建状态"></a>
-  <a href="https://github.com/daimiaopeng/coolapk-desktop/releases"><img src="https://img.shields.io/github/v/release/daimiaopeng/coolapk-desktop?color=41b883" alt="最新版本"></a>
+  <a href="https://github.com/Experiansence/coolapk-desktop/actions/workflows/build.yml"><img src="https://github.com/Experiansence/coolapk-desktop/actions/workflows/build.yml/badge.svg" alt="构建状态"></a>
+  <a href="https://github.com/Experiansence/coolapk-desktop/releases"><img src="https://img.shields.io/github/v/release/Experiansence/coolapk-desktop?color=41b883" alt="最新版本"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT 许可证"></a>
   <img src="https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri" alt="Tauri 2">
   <a href="https://qm.qq.com/q/bAOWmjCfJ0"><img src="https://img.shields.io/badge/QQ群-1129528119-12B7F5?logo=tencentqq&logoColor=white" alt="QQ 交流群"></a>
@@ -17,9 +17,14 @@
 > [!IMPORTANT]
 > 本项目是社区维护的非官方客户端，与酷安官方及深圳酷安网络科技有限公司无隶属、授权或合作关系。酷安名称、Logo 和相关商标归其权利人所有。
 
+> [!NOTE]
+> **维护状态**：原仓库 [daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) 已由原作者归档、停止维护。本项目自此仓库 fork 而来，由 [@Experiansence](https://github.com/Experiansence) 接手继续维护。
+>
+> 代码沿用 MIT 许可，**原作者的版权声明与署名完整保留**。致谢原作者 [@daimiaopeng](https://github.com/daimiaopeng) 从零建立起这个客户端。
+
 ## 📥 下载与安装
 
-请前往 [👉 GitHub Releases](https://github.com/daimiaopeng/coolapk-desktop/releases) 获取各平台的最新版本程序包：
+请前往 [👉 GitHub Releases](https://github.com/Experiansence/coolapk-desktop/releases) 获取各平台的最新版本程序包：
 
 | 操作系统 | 文件格式 | 推荐安装包 |
 | :--- | :--- | :--- |
@@ -54,21 +59,21 @@
 
 ## Star 走势
 
-<a href="https://star-history.com/#daimiaopeng/coolapk-desktop&Date">
+<a href="https://star-history.com/#Experiansence/coolapk-desktop&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=daimiaopeng/coolapk-desktop&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=daimiaopeng/coolapk-desktop&type=Date" />
-   <img alt="Star 走势趋势图" src="https://api.star-history.com/svg?repos=daimiaopeng/coolapk-desktop&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop&type=Date" />
+   <img alt="Star 走势趋势图" src="https://api.star-history.com/svg?repos=Experiansence/coolapk-desktop&type=Date" />
  </picture>
 </a>
 
 ## 贡献者
 
-[![贡献者](https://contrib.rocks/image?repo=daimiaopeng/coolapk-desktop)](https://github.com/daimiaopeng/coolapk-desktop/graphs/contributors)
+[![贡献者](https://contrib.rocks/image?repo=Experiansence/coolapk-desktop)](https://github.com/Experiansence/coolapk-desktop/graphs/contributors)
 
 ## 下载量统计图
 
-[![下载量统计图](https://release-monitor.com/chart/daimiaopeng/coolapk-desktop.svg?stable=5)](https://release-monitor.com/#/daimiaopeng/coolapk-desktop)
+[![下载量统计图](https://release-monitor.com/chart/Experiansence/coolapk-desktop.svg?stable=5)](https://release-monitor.com/#/Experiansence/coolapk-desktop)
 
 ## 功能
 
@@ -104,7 +109,7 @@
 - 各平台的 [Tauri 2 系统依赖](https://v2.tauri.app/start/prerequisites/)
 
 ```bash
-git clone https://github.com/daimiaopeng/coolapk-desktop.git
+git clone https://github.com/Experiansence/coolapk-desktop.git
 cd coolapk-desktop
 npm ci
 npm run tauri dev
