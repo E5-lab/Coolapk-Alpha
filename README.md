@@ -62,7 +62,7 @@
 
 ## 贡献者
 
-[![贡献者](https://contrib.rocks/image?repo=Experiansence/Coolapk-Alpha)](https://github.com/Experiansence/Coolapk-Alpha/graphs/contributors)
+[![贡献者](https://contrib.rocks/image?repo=Experiansence/Coolapk-Alpha&max=12)](https://github.com/Experiansence/Coolapk-Alpha/graphs/contributors)
 
 ## 下载量统计图
 
