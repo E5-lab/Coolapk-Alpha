@@ -30,7 +30,7 @@ describe('feedback utils', () => {
   });
 
   it('开发者 UID 正确', () => {
-    expect(DEVELOPER_UID).toBe('1451266');
+    expect(DEVELOPER_UID).toBe('3303796');
   });
 
   it('生成包含版本号和系统的反馈模版', () => {
@@ -57,7 +57,7 @@ describe('feedback utils', () => {
     expect(router.push).toHaveBeenCalledWith(expect.objectContaining({
       path: '/messages',
       query: expect.objectContaining({
-        uid: '1451266',
+        uid: '3303796',
         initialText: expect.stringContaining('【酷安客户端问题反馈】'),
       }),
     }));

@@ -1,8 +1,8 @@
 import type { Router } from 'vue-router';
 import { APP_VERSION } from '../constants/version';
 
-export const DEVELOPER_UID = '1451266';
-export const DEVELOPER_USERNAME = 'oxygen的喵';
+export const DEVELOPER_UID = '3303796';
+export const DEVELOPER_USERNAME = '烟岚云衢';
 
 export function getFeedbackTemplate(): string {
   let osName = 'Windows';

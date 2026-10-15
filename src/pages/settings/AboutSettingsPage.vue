@@ -59,7 +59,7 @@
       <div class="setting-row">
         <div class="row-info">
           <span class="row-label">一键私信反馈</span>
-          <span class="row-sub">直接向作者（oxygen的喵）私信反馈 Bug 或建议</span>
+          <span class="row-sub">直接向维护者（烟岚云衢）私信反馈 Bug 或建议</span>
         </div>
         <AppButton variant="primary" size="sm" icon="fas fa-comment-dots" @click="handleFeedback">
           私信反馈
