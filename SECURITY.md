@@ -9,7 +9,7 @@
 | 最新稳定版本 | ✅ |
 | 旧版本 | ❌ |
 
-请先从 [Releases](https://github.com/Experiansence/coolapk-desktop-next/releases) 更新到最新版本，再确认问题是否仍然存在。
+请先从 [Releases](https://github.com/Experiansence/Coolapk-Alpha/releases) 更新到最新版本，再确认问题是否仍然存在。
 
 ## 报告安全漏洞
 
@@ -17,7 +17,7 @@
 
 推荐通过 GitHub 的 **Private Vulnerability Reporting** 私下提交安全报告：
 
-https://github.com/Experiansence/coolapk-desktop-next/security/advisories/new
+https://github.com/Experiansence/Coolapk-Alpha/security/advisories/new
 
 报告时请尽可能提供：
 
@@ -87,6 +87,6 @@ https://github.com/Experiansence/coolapk-desktop-next/security/advisories/new
 
 ## 第三方服务说明
 
-coolapk-desktop 是社区维护的非官方酷安客户端，与酷安官方及深圳酷安网络科技有限公司无隶属、授权或合作关系。
+Coolapk-Alpha 是社区维护的非官方酷安客户端，与酷安官方及深圳酷安网络科技有限公司无隶属、授权或合作关系。
 
-本安全策略仅适用于 `coolapk-desktop` 项目自身的代码、构建产物以及由本项目实现的客户端逻辑。
+本安全策略仅适用于 `Coolapk-Alpha` 项目自身的代码、构建产物以及由本项目实现的客户端逻辑。

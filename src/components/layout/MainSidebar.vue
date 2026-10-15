@@ -162,7 +162,7 @@ function toggleBetaChannel() {
     settingsStore.settings.updateChannel = 'beta';
   }
 }
-const appDisplayName = computed(() => /android|iphone|ipad|ipod/i.test(navigator.userAgent) ? '酷安' : '酷安桌面版');
+const appDisplayName = computed(() => '酷安');
 
 const props = withDefaults(defineProps<{ mobileOpen?: boolean; mobileWindowControls?: boolean }>(), { mobileOpen: false, mobileWindowControls: false });
 const emit = defineEmits<{ closeMobile: [] }>();

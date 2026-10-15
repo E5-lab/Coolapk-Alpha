@@ -1,11 +1,11 @@
 [package]
 name = "coolapk_desktop"
 version = "1.36.0"
-description = "基于 Tauri 2、Vue 3 和 Rust 的非官方酷安桌面客户端"
+description = "基于 Tauri 2、Vue 3 和 Rust 的酷安桌面客户端"
 authors = ["daimiaopeng", "Experiansence"]
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/Experiansence/coolapk-desktop-next"
+repository = "https://github.com/Experiansence/Coolapk-Alpha"
 
 [lib]
 name = "coolapk_desktop_lib"

@@ -261,7 +261,7 @@ const isMacOS = ref(false);
 const isLinux = ref(false);
 const canInstallInApp = computed(() => (isWindows.value || isAndroid.value || isMacOS.value || isLinux.value)
   && updatePackageType.value !== 'unsupported');
-const appUpdateName = computed(() => isAndroid.value ? '酷安' : '酷安桌面版');
+const appUpdateName = computed(() => '酷安');
 const updatePackageType = ref<UpdatePackageType>('unsupported');
 let unregisterHotkeys: (() => void) | null = null;
 let unregisterSelectionClear: (() => void) | null = null;
@@ -366,7 +366,7 @@ async function checkForUpdate(manual = false) {
     updateInfo.value = {
       hasNew: false,
       releaseNotes: '检查更新失败，请检查网络连接后重试。',
-      downloadUrl: 'https://github.com/Experiansence/coolapk-desktop-next/releases',
+      downloadUrl: 'https://github.com/Experiansence/Coolapk-Alpha/releases',
     };
   }
 }
@@ -527,7 +527,7 @@ function openUpdate() {
 }
 
 function openReleasePage() {
-  const url = updateInfo.value?.downloadUrl || 'https://github.com/Experiansence/coolapk-desktop-next/releases';
+  const url = updateInfo.value?.downloadUrl || 'https://github.com/Experiansence/Coolapk-Alpha/releases';
   void CoolapkTauriAPI.openUrl(url, 'system');
 }
 

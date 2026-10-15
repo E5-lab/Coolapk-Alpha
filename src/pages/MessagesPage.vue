@@ -100,7 +100,7 @@
         <div v-if="isDeveloperSession" class="developer-feedback-banner">
           <i class="fas fa-lightbulb banner-icon"></i>
           <div class="banner-content">
-            <div class="banner-title">酷安桌面版 · 开发者反馈通道</div>
+            <div class="banner-title">酷安 · 开发者反馈通道</div>
             <div class="banner-desc">欢迎提出使用问题与功能建议。建议附带具体复现步骤或截图，开发者看到后会尽快跟进回复！</div>
           </div>
         </div>

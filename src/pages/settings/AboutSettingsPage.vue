@@ -1,6 +1,6 @@
 <template>
   <div class="settings-section">
-    <h3 class="section-title">关于酷安桌面版</h3>
+    <h3 class="section-title">关于酷安</h3>
 
     <!-- 应用信息 -->
     <div class="setting-group">
@@ -8,12 +8,12 @@
         <img src="../../assets/coolapk-logo-rounded.png" alt="酷安 Logo" class="about-logo" />
         <div class="about-info">
           <div class="about-name-row">
-            <span class="about-name">酷安桌面版</span>
+            <span class="about-name">酷安</span>
             <span class="about-version">v{{ appVersion }}</span>
             <span class="about-channel">{{ channelLabel }}</span>
           </div>
           <p class="about-desc">
-            基于 Tauri 2、Vue 3 与 Rust 构建的非官方酷安桌面客户端，数据来自酷安公开接口。
+            基于 Tauri 2、Vue 3 与 Rust 构建的酷安桌面客户端，数据来自酷安公开接口。
           </p>
           <p v-if="buildCommit" class="about-desc">构建提交：{{ buildCommit }}</p>
         </div>
@@ -47,7 +47,7 @@
       <div class="setting-row">
         <div class="row-info">
           <span class="row-label">开源协议</span>
-          <span class="row-sub">MIT License · 第三方非官方客户端</span>
+          <span class="row-sub">MIT License · 第三方客户端</span>
         </div>
         <span class="license-badge">MIT</span>
       </div>
@@ -70,14 +70,14 @@
           <span class="row-label">项目主页</span>
           <span class="row-sub">GitHub 仓库 · 源码与 Release</span>
         </div>
-        <AppIconButton icon="fas fa-arrow-up-right-from-square" size="sm" title="打开项目主页" @click="open('https://github.com/Experiansence/coolapk-desktop-next')" />
+        <AppIconButton icon="fas fa-arrow-up-right-from-square" size="sm" title="打开项目主页" @click="open('https://github.com/Experiansence/Coolapk-Alpha')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
           <span class="row-label">GitHub 反馈</span>
           <span class="row-sub">提交 Issue 或功能建议</span>
         </div>
-        <AppIconButton icon="fas fa-bug" size="sm" title="打开反馈页面" @click="open('https://github.com/Experiansence/coolapk-desktop-next/issues')" />
+        <AppIconButton icon="fas fa-bug" size="sm" title="打开反馈页面" @click="open('https://github.com/Experiansence/Coolapk-Alpha/issues')" />
       </div>
       <div class="setting-row">
         <div class="row-info">
@@ -167,7 +167,7 @@ function checkUpdate() {
 }
 
 onMounted(() => {
-  fetch('https://api.github.com/repos/Experiansence/coolapk-desktop-next', {
+  fetch('https://api.github.com/repos/Experiansence/Coolapk-Alpha', {
     headers: { Accept: 'application/vnd.github.v3+json' },
   })
     .then((res) => (res.ok ? res.json() : null))

@@ -494,7 +494,7 @@ describe('设置页面交互', () => {
     await wrapper.get('.about-head button').trigger('click');
     expect(eventSpy).toHaveBeenCalled();
     await wrapper.find('[title="打开项目主页"]').trigger('click');
-    expect(mocks.openUrl).toHaveBeenCalledWith('https://github.com/Experiansence/coolapk-desktop-next', 'system');
+    expect(mocks.openUrl).toHaveBeenCalledWith('https://github.com/Experiansence/Coolapk-Alpha', 'system');
     vi.unstubAllGlobals();
   });
 
